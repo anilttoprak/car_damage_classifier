@@ -21,9 +21,19 @@ Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları t
 
 ### 1. Backend Kurulumu
 
-Yeni bir terminal açın ve backend dizinine gidin:
+Yeni bir terminal açın ve backend dizinine gidin. Python projelerinde çakışmaları önlemek için sanal ortam (virtual environment) kullanılması önerilir:
+
 ```bash
 cd backend
+python -m venv venv
+```
+
+Sanal ortamı aktifleştirin:
+- **Windows için:** `.\venv\Scripts\activate`
+- **Mac/Linux için:** `source venv/bin/activate`
+
+Ardından gerekli kütüphaneleri kurun:
+```bash
 pip install -r requirements.txt
 ```
 
@@ -31,7 +41,7 @@ Backend sunucusunu başlatın:
 ```bash
 uvicorn main:app --reload
 ```
-> **Not:** Uygulama ilk kez çalıştığında yapay zeka modeli (yaklaşık birkaç yüz MB) arka planda indirilecektir.
+> **Not:** Uygulama ilk kez çalıştığında yapay zeka modeli arka planda indirilecektir.
 
 ### 2. Frontend Kurulumu
 
@@ -46,6 +56,7 @@ Geliştirme sunucusunu başlatın:
 npm run dev
 ```
 
-Uygulama başarıyla başladığında tarayıcınızdan `http://localhost:5173` (veya terminalde belirtilen adrese) giderek projeyi kullanmaya başlayabilirsiniz.
+Uygulama başarıyla başladığında tarayıcınızdan uygulamanın linkine (genelde `http://localhost:5173`) giderek projeyi kullanmaya başlayabilirsiniz.
+
 
 

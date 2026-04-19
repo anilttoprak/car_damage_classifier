@@ -2,12 +2,17 @@
 
 Yapay zeka destekli, modern bir web uygulamasıdır. Kullanıcıların yüklediği araç fotoğraflarındaki hasar türünü analiz ederek sınıflandırır. Hugging Face üzerinde bulunan `beingamit99/car_damage_detection` modeli kullanılarak geliştirilmiştir.
 
+<img width="1877" height="788" alt="Ekran görüntüsü 2026-04-18 220959" src="https://github.com/user-attachments/assets/d1f2527d-2e52-424a-a2e9-5bf78617f65d" />
+
+
 ## 🚀 Özellikler
 
 - **AI Destekli Analiz**: Araçlardaki hasarları 6 farklı sınıfa (Çatlak, Çizik, Patlak Lastik, Göçük, Kırık Cam, Kırık Far) ayırır.
 - **Modern ve Premium Arayüz**: Glassmorphism (cam efekti), koyu tema (dark mode) ve özel neon renk paleti ile tasarlanmış kullanıcı deneyimi.
 - **Sürükle & Bırak Desteği**: Hızlı ve kolay fotoğraf yükleme.
 - **Hızlı Backend**: Python ve FastAPI kullanılarak geliştirilmiş, lokal model çıkarımı (inference) yapan yüksek performanslı API.
+
+<img width="1180" height="925" alt="Ekran görüntüsü 2026-04-18 220953" src="https://github.com/user-attachments/assets/e488daa1-4eba-4c2a-bd70-de6f11fb5da4" />
 
 ## 🛠️ Kullanılan Teknolojiler
 
